@@ -103,6 +103,12 @@
             <id>server-trunk-website</id>
             <url>scpexe://people.apache.org/www/james.apache.org/server/3/</url>
         </site>
+       <snapshotRepository>
+          <id>local-nexus</id>
+          <name>local-nexus</name>
+          <url>http://admin:admin@localhost:6555/nexus/content/repositories/snapshots</url> 
+       </snapshotRepository>
+
     </distributionManagement>
 
     <properties>
